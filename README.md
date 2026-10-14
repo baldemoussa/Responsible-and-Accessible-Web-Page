@@ -1,5 +1,7 @@
 # MMB-Philadelphia LLC
 
+## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+
 A one-page site for MMB-Philadelphia LLC. The browser tab title is **MMB-Philadelphia LLC | Inclusive Digital Experiences**. The header stays fixed at the top while the page scrolls. There is no JavaScript file.
 
 ## Screenshots
