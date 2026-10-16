@@ -1,26 +1,10 @@
-## By [Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+# MMB-Philadelphia LLC
 
-A one-page site for MMB-Philadelphia LLC. The browser tab title is **MMB-Philadelphia LLC | Inclusive Digital Experiences**. The header stays fixed at the top while the page scrolls. There is no JavaScript file.
+A one-page site for MMB-Philadelphia LLC. There is no JavaScript file.
 
-## Screenshots
+## Description
 
-**Hero.** The logo, the row of nav links, and the Philadelphia skyline under a green overlay. This window was about 940px wide, so the heading uses the smaller size from the 1024px breakpoint.
-
-![Green header, skyline hero, and the start of About Us](docs/screenshots/hero.png)
-
-**Services.** At this width the cards wrap to two per row. Inclusive UI/UX is the third card, on the next row.
-
-![Web Development and a11y Auditing cards](docs/screenshots/services.png)
-
-**Contact.** Name, email, and message are required. Subject is not.
-
-![Contact form with required-field note and the first fields](docs/screenshots/contact.png)
-
-**375px wide.** The logo and the four links stack. The heading drops to 32px.
-
-![Stacked navigation and the hero on a narrow screen](docs/screenshots/mobile.png)
-
-## Page
+The browser tab title is **MMB-Philadelphia LLC | Inclusive Digital Experiences**. The header stays fixed at the top while the page scrolls.
 
 The logo is the Philadelphia Eagles mark. Its alt text is “MMB-Philadelphia LLC logo.” The logo link’s accessible name is “MMB-Philadelphia LLC Home,” and its address is `#`, so it stays on this page.
 
@@ -36,9 +20,7 @@ About Us says accessibility is a fundamental human right and that the work confo
 
 The three service cards are Web Development, a11y Auditing, and Inclusive UI/UX. Their photos have an empty `alt` and `role="presentation"`. Each “Learn more” link also goes to `#contact`. The arrow in those links is hidden from assistive technology.
 
-## Contact form
-
-The note above the form says fields marked with an asterisk are required. Name and message point at that note. Email has its own note: “We will never share your email with third parties.”
+The note above the form says fields marked with an asterisk are required. Name and message point at that note. Email has its own note: “We will never share your email with third parties.” Name, email, and message are required. Subject is not.
 
 Submitting an empty form stays on the page. The browser message on Name, Email, and Message is “Please fill out this field.”
 
@@ -52,7 +34,7 @@ The status box under the heading stays empty. The stylesheet has a green success
 
 Submit Message is a full-width dark green button under the message field.
 
-## Footer
+The footer reads:
 
 ```text
 © 2026 Mamadou Moussa Balde . All rights reserved.
@@ -60,8 +42,6 @@ Contact us: lebaldem2@gmail.com
 ```
 
 The email is a `mailto:` link. LinkedIn and GitHub open in a new tab. Their accessible names are “LinkedIn” and “GitHub.” The icons are hidden from assistive technology.
-
-## Keyboard and layout
 
 “Skip to main content” is the first link. It sits 60px above the page, and the stylesheet moves it to `top: 1rem` while it is focused. It points at `#main-content`.
 
@@ -79,7 +59,38 @@ The page background is `#ebf7ec`. Body text is `#012e03`. The header and footer 
 
 Nav links gain a white underline on hover. A service card lifts 4px on hover. Pressing a button scales it to 98 percent.
 
-## How to open it
+At about 940px the heading uses the smaller size from the 1024px breakpoint, and the service cards wrap to two per row. Inclusive UI/UX is the third card, on the next row. At 375px the logo and the four links stack, and the heading drops to 32px.
+
+## Screenshots
+
+### Hero
+
+![Green header, skyline hero, and the start of About Us](docs/screenshots/hero.png)
+
+### Services
+
+![Web Development and a11y Auditing cards](docs/screenshots/services.png)
+
+### Contact
+
+![Contact form with required-field note and the first fields](docs/screenshots/contact.png)
+
+### 375px wide
+
+![Stacked navigation and the hero on a narrow screen](docs/screenshots/mobile.png)
+
+## Getting Started
+
+### Dependencies
+
+* A browser
+* A network connection for the logo, the skyline, and the three service photos
+
+### Installing
+
+No install step. There is no JavaScript file.
+
+### Executing program
 
 Open `index.html` in a browser, or serve this folder:
 
@@ -87,4 +98,24 @@ Open `index.html` in a browser, or serve this folder:
 python -m http.server
 ```
 
-The logo, the skyline, and the three service photos load from other sites, so the page needs a network connection.
+## Help
+
+An empty submit stays on the page and the browser says “Please fill out this field.” A completed form sends a GET to the same page, and the status box stays empty. The green success style is in the stylesheet and is never added.
+
+## Authors
+
+[Mamadou Moussa Balde](https://www.linkedin.com/in/2mb/)
+
+## Version History
+
+* Current page
+    * Reviewed at about 940px and at 375px
+    * One test submission was Maya Chen, subject Hello
+
+## License
+
+This folder does not include a `LICENSE.md` file.
+
+## Acknowledgments
+
+* [README template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
